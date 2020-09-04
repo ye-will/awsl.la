@@ -12,7 +12,9 @@ export const Home = (): JSX.Element => (
     </main>
 
     <footer>
-      <div>啊我死了.啦</div>
+      <div>
+        啊<span>à</span>我<span>wǒ</span>死<span>sǐ</span>了<span>le</span>
+      </div>
     </footer>
 
     <style jsx>{`
@@ -41,6 +43,12 @@ export const Home = (): JSX.Element => (
         display: flex;
         justify-content: center;
         align-items: center;
+      }
+
+      footer span {
+        color: #9d9d9d;
+        font-size: 0.8rem;
+        padding: 0 0.2rem;
       }
 
       .title {
